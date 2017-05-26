@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="Product.js"></script>
+</head>
+<body>
+    Welcome to the Shop!
+    <script>
+        var prod = new Product();
+        prod.PurchaseProduct();
+        //prod.SellProduct();
+        prod.OrderingProducts();
+        var SampleString = ['I', 'LOVE', 'INDIA'];
+        prod.formatCommandline(SampleString);
+
+        prod.StrOrNum = 'Ram';
+        alert(prod.StrOrNum);
+        prod.StrOrNum = 100;
+        alert(prod.StrOrNum);
+    </script>
+</body>
+</html>
