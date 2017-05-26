@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="node_modules/systemjs/dist/system.js"></script>
+</head>
+
+<body>
+    <script>
+        System.config({
+            "defaultJSExtensions": true
+        });
+        System.import("Customer.js").
+            then(function (exports) {
+                var cust = new exports.Customer();
+                cust.CustomerCode = "COD1212";
+                alert(cust.CustomerCode);
+                cust.AddCustomer();
+                cust.OrderObj.OrderNumber = "ORD1010";
+                alert(cust.OrderObj.OrderNumber);
+                cust.OrderObj.AddOrder();
+                
+        });
+
+    </script>
+</body>
+</html>

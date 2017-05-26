@@ -5,13 +5,13 @@ VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TS_Annotation", "TS_Annotation\TS_Annotation.csproj", "{FA875DBC-C644-4A38-8525-B4277C39EE9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TS_Inheritance_Props", "..\TypeScript Basics\TS_Inheritance_Props\TS_Inheritance_Props\TS_Inheritance_Props.csproj", "{88B17AA1-F287-442D-BC54-B0A42DFF8617}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TS_Inheritance_Props", "TS_Inheritance_Props\TS_Inheritance_Props\TS_Inheritance_Props.csproj", "{88B17AA1-F287-442D-BC54-B0A42DFF8617}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TS_Interface", "..\TypeScript Basics\TS_Interface\TS_Interface\TS_Interface.csproj", "{11031140-C0CE-431D-9676-400E88937A7A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TS_Interface", "TS_Interface\TS_Interface\TS_Interface.csproj", "{11031140-C0CE-431D-9676-400E88937A7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TS_ModuleLoader", "..\TypeScript Basics\TS_ModuleLoader\TS_ModuleLoader\TS_ModuleLoader.csproj", "{FC720558-2F53-47A1-A927-00F7658EA1A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TS_ModuleLoader", "TS_ModuleLoader\TS_ModuleLoader\TS_ModuleLoader.csproj", "{FC720558-2F53-47A1-A927-00F7658EA1A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TS_TypeInf_TypeAnnot", "..\TypeScript Basics\TS_TypeInf_TypeAnnot\TS_TypeInf_TypeAnnot\TS_TypeInf_TypeAnnot.csproj", "{E4D157C8-8BC8-4F34-915C-28B1FFA1F0C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TS_TypeInf_TypeAnnot", "TS_TypeInf_TypeAnnot\TS_TypeInf_TypeAnnot\TS_TypeInf_TypeAnnot.csproj", "{E4D157C8-8BC8-4F34-915C-28B1FFA1F0C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

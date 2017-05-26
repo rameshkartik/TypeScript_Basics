@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="Company.js"></script>
+</head>
+<body>
+    Welcome to my Company!
+
+    <script>
+        var Comp = new Company();
+        Comp.CompanyName = "CTS";
+        alert(Comp.CompanyName);
+
+        var b = Comp.Validate(1);
+        alert(b);
+
+        Comp.CompanyCode = "C001";
+        alert(Comp.CompanyCode);
+
+        var MComp = new MidLevelCompany();
+        MComp.CompanyName = 'MidLevel Company';
+        alert(MComp.CompanyName);
+
+        var b = MComp.Validate(5);
+        alert(b);
+        try
+        {
+            Comp = new Company();
+            Comp.CompanyCode = "";
+            alert(Comp.CompanyCode); //Js Exceptions
+        }
+        catch(ex)
+        {
+            alert(ex);
+        }
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="Student.js"></script>
+    <script src="TS_Advantages.js"></script>
+</head>
+<body>
+    <script>
+        var Stud = new Student();
+        Stud.StudentName = "Ram";
+        alert(Stud.StudentName);
+       
+        Stud.getAge();
+        Stud.getName();
+        Stud.getCityName();
+        Stud.AddData();
+        Stud.AddString();
+        Stud.AddStringNumber();
+        Stud.getStaffAge_Dyn();
+        Stud.getAccDetails();
+
+        var TS = new TS_Advantages();
+        TS.AddNumbers_Any(1,2,3);
+        TS.AddNumbers(1,2,3);
+        TS.VariableName_TypeError();
+    </script>
+</body>
+</html>
