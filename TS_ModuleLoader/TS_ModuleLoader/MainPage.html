@@ -11,17 +11,21 @@
         System.config({
             "defaultJSExtensions": true
         });
-        System.import("Customer.js").
-            then(function (exports) {
-                var cust = new exports.Customer();
-                cust.CustomerCode = "COD1212";
-                alert(cust.CustomerCode);
-                cust.AddCustomer();
-                cust.OrderObj.OrderNumber = "ORD1010";
-                alert(cust.OrderObj.OrderNumber);
-                cust.OrderObj.AddOrder();
-                
-        });
+        var iUserOption = "OrderProducts";
+
+        if (iUserOption == "OrderProducts") {
+            System.import("Customer.js").
+                then(function (exports) {
+                    var cust = new exports.Customer();
+                    cust.CustomerCode = "COD1212";
+                    alert(cust.CustomerCode);
+                    cust.AddCustomer();
+                    cust.OrderObj.OrderNumber = "ORD1010";
+                    alert(cust.OrderObj.OrderNumber);
+                    cust.OrderObj.AddOrder();
+
+                });
+        }
 
     </script>
 </body>
